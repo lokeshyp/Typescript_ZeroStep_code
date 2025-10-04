@@ -1,0 +1,16 @@
+{
+  "name": "playwright-typescript-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "show-report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@zerostep/playwright": "^0.1.5",
+    "typescript": "^5.4.0"
+  }
+}
